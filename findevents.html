@@ -1,0 +1,33 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home | Electionary</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<html>
+  <body>
+    <script src="script.js"></script>
+    <h1>Electionary</h1>
+    <h2>Find Events</h2>
+    <nav>
+      <a href="profile.html"> Profile</a>
+      <a href="events.html"> My Events</a>
+      <a href="findevents.html"> Find Events</a>
+      <a href="voting.html"> Voter Registration</a>
+    </nav>
+  
+  </body>
+  <main>
+    <h3>Find an event by name or location</h3>
+    <form action="findevents.html" method="get">
+      <label for="eventname">Event Name:</label>
+      <input type="text" id="eventname" name="eventname" placeholder="Event Name" required>
+      <br>
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Location" required>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</html>
