@@ -2,38 +2,58 @@
 <html lang="en">
 
   <head>
-    <meta charset="utf-8"
-    <title>Home | Create an Event</title>
+    <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <header>
-      <h1>Create an Event</h1>
-      <p>Submit the form here to post an event!</p>
+    <h1>Electionary</h1>
+    <h2>Create an Event</h2>
     </header>
-    <nav>
       <body>
         <script src="script.js"></script>
         <nav>
-          <a href="profile.html"> Profile</a>
-          <a href="events.html"> My Events</a>
-          <a href="findevents.html"> Find Events</a>
-          <a href="voting.html"> Voter Registration</a>
+          <a href="index.html"><img src="pics/home.png" width='15' height='15'></a>
+          <a href="profile.html">Profile</a>
+          <a href="events.html">Create Events</a>
+          <a href="findevents.html">Find Events</a>
+          <a href="voting.html">Voter Registration</a>
+          <a href="notif.html"><img src="pics/notif.png" width="15" height="15"></a>
         </nav>
       </body>
-    </nav>
     <main>
-      <form>
+      <p>Submit the form below to post an event!</p>
+      <form action="findevents.html" method="get">
         <ul>
           <list><label for="name">Name of Event:</label></list>
           <input type="text" id="name" name="name"><br><br>
           <list><label for="date">Date of Event (mm-dd-yyyy):</label></list>
           <input type="text" id="date" name="date"><br><br>
           <list><label for="description">Description of Event:</label></list>
-          <input type="text" id="description" name="discription"><br><br>
+          <input type="text" id="description" name="description"><br><br>
+          <list><label for="notes">Additional Notes:</label></list>
+          <input type="text" id="notes" name="notes"><br><br>
           <list><input type="submit" value="Submit"></list>
         </ul>
       </form>
+      <h3>My Upcoming Events:</h3>
+      <div id="event">
+        <h3>Boston Town Hall 10/6/24 @ 3pm</h3>
+        <h4>Organizer: <a href="candidate.html">Jane Doe</a></h4>
+        <h4>Location: <a href="https://www.google.com/maps/dir//Boston+City+Hall,+1+City+Hall+Square,+Boston,+MA+02201/@42.3604099,-71.0605679,16z/data=!3m1!5s0x89e37085a36acc1b:0xff95595e8d8887bb!4m17!1m7!3m6!1s0x89e37085a3300f2f:0x7e2c37cdd191455a!2sBoston+City+Hall!8m2!3d42.360406!4d-71.057993!16zL20vMDdqbHhz!4m8!1m0!1m5!1m1!1s0x89e37085a3300f2f:0x7e2c37cdd191455a!2m2!1d-71.057993!2d42.360406!3e2?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">Boston City Hall</a></h4>
+        <h5><a href="candidate.html">More Information </a></h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum. <h5>
+              
+      </div>
+
+
+
     </main>
     <footer>
       <p>Copyright &copy; 2024</p>

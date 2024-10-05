@@ -4,11 +4,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: "Garamond";
 }
 
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+p {
+    margin-left: 10px;
+    font-size: 18px;
+}
 body {
     background-color: #f7f7f7
+}
+
+html, body {
+    height: 100%;  /* Full height */
+    margin: 0;     /* Remove default margins */
 }
 
 nav {
@@ -16,6 +30,10 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+    padding: 10px 20px; /* Adjust padding as needed */
+    color: #fff; /* Text color */
+    margin: 10px;
 }
 
 nav a {
@@ -31,6 +49,19 @@ nav a:hover{
     border-radius: 12px;
 }
 
+
+h1{
+    color: red;
+    font-size: 30px;
+}
+
+.full-width-image {
+    width: 100%; /* Make this specific image fill the width of the page */
+    height: auto; /* Maintain original proportions */
+    display: block; /* Prevent extra space below the image */
+    opacity: 0.4;
+}
+
 form{
     color: #5669ff;
     align-items: center;
@@ -43,7 +74,84 @@ label{
     margin: 30px;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+li{
+    margin-left: 50px;
+}
+
+#about h2{
+    margin: 10px;
+}
+
+#about{
+    text-align: center;
+}
+
+#about li{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttonlist{
+    text-align: center;
+}
+
+#buttonlist button{
+    background-color: #5669FF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#buttonlist li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+}
+
+#follow ul{
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+#event{
+    margin: 40px;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    border-radius: 10px;
+    spacing
+}
+
+#notification p{
+    text-align: center;
+    margin: 20px;
+}
+
 html {
     height: 100%;
     width: 100%;
 }
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+.center-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
